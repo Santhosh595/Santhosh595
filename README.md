@@ -7,6 +7,7 @@ I work at the intersection of **cybersecurity** and **AI** — building tools th
 - **AI for security operations** — an autonomous agent that investigates and triages Splunk alerts end-to-end, cutting first-pass triage from ~45 minutes to under 2
 - **Python security tooling** — a modular toolkit spanning file encryption, network intrusion detection, port scanning, and a unified control-panel dashboard
 - **Multi-agent RL** — training AI agents to make routing and logistics decisions in dynamic, disruption-prone supply chain environments (OpenEnv v2.0)
+- **Supply-chain security for AI coding tools** — building hook-scanner, a static audit CLI that inspects what AI agents auto-execute (Claude Code hooks, VS Code tasks, npm install scripts, GitHub Actions) for download-and-execute patterns before they run
 
 ## 🧰 Tech I build with
 
@@ -23,6 +24,7 @@ Python · Flask · PyTorch (reinforcement learning) · Scapy · Splunk MCP Serve
 | [openenv-project](https://github.com/Santhosh595/openenv-project) | The full multi-agent RL environment behind the v2.0 checkpoints — 8-action decision space, 6-type disruption engine, REINFORCE training code, FastAPI server, and HF Spaces deployment |
 | [hackerRack-support-triage](https://github.com/Santhosh595/hackerRack-support-triage) | Evaluator-ready support triage system for HackerRank, Claude, and Visa domains — a deterministic, safety-gated pipeline that escalates high-risk or ambiguous tickets instead of guessing |
 | [verix](https://github.com/Santhosh595/verix) | Multi-modal evidence review for insurance damage claims — adjudicates car, laptop, and package claims from photographic evidence with a transparent reasoning trail (HackerRank Orchestrate hackathon) |
+| [hook-scanner](https://github.com/Santhosh595/hook-scanner) | Stdlib-only static audit CLI for AI-codetool supply-chain risk — scans what agents trust and run: Claude Code hooks, VS Code tasks/extensions, npm install scripts, GitHub Actions workflows, and agent instruction files |
 
 ## 📫 Find me
 
