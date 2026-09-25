@@ -1,32 +1,69 @@
-# Hi, I'm Santhosh 👋
+<div align="center">
 
-I work at the intersection of **cybersecurity** and **AI** — building tools that help defenders move faster: autonomous SOC agents, offensive/defensive security tooling, and AI systems that make security operations less manual.
+# Santhosh | Cybersecurity × AI Security
 
-## 🔭 What I'm working on
+<p><strong>Building practical security systems for AI-era defense:</strong> red teaming AI workflows, automating SOC triage, and shipping security tooling that reduces manual analyst load.</p>
 
-- **AI for security operations** — an autonomous agent that investigates and triages Splunk alerts end-to-end, cutting first-pass triage from ~45 minutes to under 2
-- **Python security tooling** — a modular toolkit spanning file encryption, network intrusion detection, port scanning, and a unified control-panel dashboard
-- **Multi-agent RL** — training AI agents to make routing and logistics decisions in dynamic, disruption-prone supply chain environments (OpenEnv v2.0)
-- **Supply-chain security for AI coding tools** — building hook-scanner, a static audit CLI that inspects what AI agents auto-execute (Claude Code hooks, VS Code tasks, npm install scripts, GitHub Actions) for download-and-execute patterns before they run
+<p>
+  <a href="https://git.io/typing-svg">
+    <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=18&pause=1200&color=00BFFF&center=true&vCenter=true&width=900&lines=Cybersecurity+Engineer+focused+on+AI+Security+and+Security+Automation;Building+SOC+agents%2C+supply-chain+auditors%2C+and+AI+red-team+tooling;Turning+security+workflows+into+repeatable%2C+defensible+systems" alt="Animated profile tagline showing cybersecurity and AI security focus" />
+  </a>
+</p>
 
-## 🧰 Tech I build with
+<p>
+  <a href="https://github.com/Santhosh595"><img src="https://img.shields.io/badge/GitHub-Profile-181717?style=for-the-badge&logo=github" alt="GitHub profile badge" /></a>
+  <a href="mailto:lmjsanthosh.l@gmail.com"><img src="https://img.shields.io/badge/Email-Contact-blue?style=for-the-badge&logo=gmail" alt="Email contact badge" /></a>
+</p>
 
-Python · Flask · PyTorch (reinforcement learning) · Scapy · Splunk MCP Server · REST APIs · Linux · Git
+</div>
 
-## 🚀 Featured projects
+---
 
-| Project | What it does |
-|--------|--------------|
-| [SOC-AutoPilot](https://github.com/Santhosh595/SOC-AutoPilot) | Autonomous AI security agent that triages Splunk alerts in under 2 minutes — uses the Splunk MCP Server, a hosted Gemini model, and a self-learning knowledge base to investigate, classify, and generate detection rules |
-| [SecureNET-Toolkit-](https://github.com/Santhosh595/SecureNET-Toolkit-) | Python-powered security suite: AES-256 file encryption (FileGuard), real-time network intrusion detection (NetworkSniffer), port scanners, security header analyzers, and a unified control-panel dashboard |
-| [THREATLENS](https://github.com/Santhosh595/THREATLENS) | Flask web app that analyzes URLs for phishing indicators (missing HTTPS, shortened links, suspicious keywords) and returns explainable, risk-based recommendations |
-| [Supply-Chain-Disruption-Management-OpenEnv-v2.0](https://github.com/Santhosh595/Supply-Chain-Disruption-Management-OpenEnv-v2.0) | Pre-trained REINFORCE policy checkpoints for the OpenEnv v2.0 supply-chain disruption environment |
-| [openenv-project](https://github.com/Santhosh595/openenv-project) | The full multi-agent RL environment behind the v2.0 checkpoints — 8-action decision space, 6-type disruption engine, REINFORCE training code, FastAPI server, and HF Spaces deployment |
-| [hackerRack-support-triage](https://github.com/Santhosh595/hackerRack-support-triage) | Evaluator-ready support triage system for HackerRank, Claude, and Visa domains — a deterministic, safety-gated pipeline that escalates high-risk or ambiguous tickets instead of guessing |
-| [verix](https://github.com/Santhosh595/verix) | Multi-modal evidence review for insurance damage claims — adjudicates car, laptop, and package claims from photographic evidence with a transparent reasoning trail (HackerRank Orchestrate hackathon) |
-| [hook-scanner](https://github.com/Santhosh595/hook-scanner) | Stdlib-only static audit CLI for AI-codetool supply-chain risk — scans what agents trust and run: Claude Code hooks, VS Code tasks/extensions, npm install scripts, GitHub Actions workflows, and agent instruction files |
+## Focus Areas
 
-## 📫 Find me
+- **AI Security & Red Teaming:** context-poisoning/prompt-injection testing and trust-boundary analysis for AI-assisted workflows.
+- **Security Automation:** autonomous SOC investigation flows that accelerate triage and response quality.
+- **Defensive App Security:** phishing detection, risk scoring, and explainable security decisions.
+- **Secure Developer Workflows:** supply-chain checks for scripts, hooks, and CI task execution paths.
+
+---
+
+## Featured Projects
+
+| Project | Why it matters |
+| --- | --- |
+| [hook-scanner](https://github.com/Santhosh595/hook-scanner) | Static audit CLI for AI coding-tool supply-chain risk. Scans Claude Code hooks, VS Code tasks/extensions, npm install scripts, GitHub Actions workflows, and instruction files before trust is placed in auto-execution paths. |
+| [ctxprobe](https://github.com/Santhosh595/ctxprobe) | Red-team CLI for **AI context poisoning / prompt injection** scenarios to pressure-test agent behavior and prompt safety assumptions. |
+| [SOC-AutoPilot](https://github.com/Santhosh595/SOC-AutoPilot) | Autonomous SOC security agent for Splunk alert triage, investigation, classification, and detection-rule generation using MCP-driven tooling. |
+| [THREATLENS](https://github.com/Santhosh595/THREATLENS) | Flask-based URL threat analysis app that detects phishing indicators and returns risk-based, explainable recommendations. |
+| [verix](https://github.com/Santhosh595/verix) | Evidence-first multi-modal claim adjudication workflow with prompt-injection detection and transparent structured decisions. |
+| [passkey-security-playbook](https://github.com/Santhosh595/passkey-security-playbook) | Practical field guide covering where passkeys help, where they can still fail, and mitigation checklists for real deployments. |
+
+---
+
+## Skills & Tooling
+
+- **Security:** SOC automation, phishing analysis, supply-chain security auditing, AI prompt-injection testing, security workflow hardening
+- **AI / ML:** reinforcement learning (PyTorch), LLM-assisted investigation pipelines, multi-modal decision flows
+- **Programming:** Python, Flask, REST APIs
+- **Platform & Ops:** Splunk MCP Server, Linux, Git, GitHub Actions
+
+---
+
+## GitHub Activity
+
+<div align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=Santhosh595&show_icons=true&theme=tokyonight&hide_border=true" alt="GitHub stats for Santhosh595" height="165" />
+  <img src="https://streak-stats.demolab.com?user=Santhosh595&theme=tokyonight&hide_border=true" alt="GitHub contribution streak for Santhosh595" height="165" />
+</div>
+
+<div align="center">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Santhosh595&layout=compact&theme=tokyonight&hide_border=true" alt="Top languages used by Santhosh595" height="150" />
+</div>
+
+---
+
+## Connect
 
 - GitHub: [@Santhosh595](https://github.com/Santhosh595)
-- Email: lmjsanthosh.l@gmail.com
+- Email: [lmjsanthosh.l@gmail.com](mailto:lmjsanthosh.l@gmail.com)
