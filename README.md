@@ -1,69 +1,40 @@
-<div align="center">
-
-# Santhosh | Cybersecurity × AI Security
-
-<p><strong>Building practical security systems for AI-era defense:</strong> red teaming AI workflows, automating SOC triage, and shipping security tooling that reduces manual analyst load.</p>
+```text
+~/lab/profile
+I build small security tools for messy AI workflows, developer tooling, and SOC operations.
+```
 
 <p>
   <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=18&pause=1200&color=00BFFF&center=true&vCenter=true&width=900&lines=Cybersecurity+Engineer+focused+on+AI+Security+and+Security+Automation;Building+SOC+agents%2C+supply-chain+auditors%2C+and+AI+red-team+tooling;Turning+security+workflows+into+repeatable%2C+defensible+systems" alt="Animated profile tagline showing cybersecurity and AI security focus" />
+    <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=15&pause=1600&color=7DD3FC&vCenter=true&width=720&lines=building+and+breaking+security+workflows;testing+prompt+boundaries+and+supply+chains;shipping+small+tools+that+stay+useful" alt="Subtle terminal-style animated line about ongoing security tooling work" />
   </a>
 </p>
 
-<p>
-  <a href="https://github.com/Santhosh595"><img src="https://img.shields.io/badge/GitHub-Profile-181717?style=for-the-badge&logo=github" alt="GitHub profile badge" /></a>
-  <a href="mailto:lmjsanthosh.l@gmail.com"><img src="https://img.shields.io/badge/Email-Contact-blue?style=for-the-badge&logo=gmail" alt="Email contact badge" /></a>
-</p>
+## currently building / exploring
 
-</div>
+- [hook-scanner](https://github.com/Santhosh595/hook-scanner) — tightening supply-chain checks around hooks, tasks, and workflow execution paths.
+- [ctxprobe](https://github.com/Santhosh595/ctxprobe) — testing prompt-injection/context-poisoning failure modes in agent workflows.
+- [SOC-AutoPilot](https://github.com/Santhosh595/SOC-AutoPilot) — SOC triage and investigation flow with Splunk MCP tooling.
+- [verix](https://github.com/Santhosh595/verix) — evidence-first claim verification pipeline with injection checks.
 
----
+## project notes
 
-## Focus Areas
+### AI workflow security
+- [ctxprobe](https://github.com/Santhosh595/ctxprobe) — CLI to simulate prompt-injection/context-poisoning attacks and inspect agent behavior.
+- [verix](https://github.com/Santhosh595/verix) — multi-modal claim adjudication workflow with transparent decision output.
+- [hook-scanner](https://github.com/Santhosh595/hook-scanner) — static auditor for risky automation surfaces (hooks, tasks, install scripts, Actions).
 
-- **AI Security & Red Teaming:** context-poisoning/prompt-injection testing and trust-boundary analysis for AI-assisted workflows.
-- **Security Automation:** autonomous SOC investigation flows that accelerate triage and response quality.
-- **Defensive App Security:** phishing detection, risk scoring, and explainable security decisions.
-- **Secure Developer Workflows:** supply-chain checks for scripts, hooks, and CI task execution paths.
+### SOC + defensive automation
+- [SOC-AutoPilot](https://github.com/Santhosh595/SOC-AutoPilot) — autonomous alert triage/investigation/classification experiments for Splunk-driven workflows.
+- [THREATLENS](https://github.com/Santhosh595/THREATLENS) — Flask app for phishing-oriented URL analysis and risk scoring.
 
----
+### authentication + practical security docs
+- [passkey-security-playbook](https://github.com/Santhosh595/passkey-security-playbook) — practical notes on passkey strengths, failure cases, and mitigations.
 
-## Featured Projects
+## tools I use
 
-| Project | Why it matters |
-| --- | --- |
-| [hook-scanner](https://github.com/Santhosh595/hook-scanner) | Static audit CLI for AI coding-tool supply-chain risk. Scans Claude Code hooks, VS Code tasks/extensions, npm install scripts, GitHub Actions workflows, and instruction files before trust is placed in auto-execution paths. |
-| [ctxprobe](https://github.com/Santhosh595/ctxprobe) | Red-team CLI for **AI context poisoning / prompt injection** scenarios to pressure-test agent behavior and prompt safety assumptions. |
-| [SOC-AutoPilot](https://github.com/Santhosh595/SOC-AutoPilot) | Autonomous SOC security agent for Splunk alert triage, investigation, classification, and detection-rule generation using MCP-driven tooling. |
-| [THREATLENS](https://github.com/Santhosh595/THREATLENS) | Flask-based URL threat analysis app that detects phishing indicators and returns risk-based, explainable recommendations. |
-| [verix](https://github.com/Santhosh595/verix) | Evidence-first multi-modal claim adjudication workflow with prompt-injection detection and transparent structured decisions. |
-| [passkey-security-playbook](https://github.com/Santhosh595/passkey-security-playbook) | Practical field guide covering where passkeys help, where they can still fail, and mitigation checklists for real deployments. |
+`Python` · `Flask` · `PyTorch / reinforcement learning` · `Splunk MCP` · `Linux` · `Git` · `GitHub Actions` · `security automation` · `phishing analysis` · `prompt-injection testing` · `supply-chain auditing`
 
----
-
-## Skills & Tooling
-
-- **Security:** SOC automation, phishing analysis, supply-chain security auditing, AI prompt-injection testing, security workflow hardening
-- **AI / ML:** reinforcement learning (PyTorch), LLM-assisted investigation pipelines, multi-modal decision flows
-- **Programming:** Python, Flask, REST APIs
-- **Platform & Ops:** Splunk MCP Server, Linux, Git, GitHub Actions
-
----
-
-## GitHub Activity
-
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Santhosh595&show_icons=true&theme=tokyonight&hide_border=true" alt="GitHub stats for Santhosh595" height="165" />
-  <img src="https://streak-stats.demolab.com?user=Santhosh595&theme=tokyonight&hide_border=true" alt="GitHub contribution streak for Santhosh595" height="165" />
-</div>
-
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Santhosh595&layout=compact&theme=tokyonight&hide_border=true" alt="Top languages used by Santhosh595" height="150" />
-</div>
-
----
-
-## Connect
+## contact
 
 - GitHub: [@Santhosh595](https://github.com/Santhosh595)
 - Email: [lmjsanthosh.l@gmail.com](mailto:lmjsanthosh.l@gmail.com)
