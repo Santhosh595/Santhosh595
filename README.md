@@ -1,4 +1,4 @@
-# Santhosh595
+# Santhosh
 
 ```text
 ~/lab/profile
